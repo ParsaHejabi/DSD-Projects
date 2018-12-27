@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/testbench_isim_beh.exe -prj C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/SC.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/Reg.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/PCReg.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/Mem.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/Decoder3x8.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/ControlLogic.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/Arbiter.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/AddressReg.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/DP.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/CP.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/top_module.vhd" into library work
+Parsing VHDL file "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/BPtb.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:794 - "C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/Arbiter.vhd" Line 55: Statement might not cover all choices ; 'others' clause recommended
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Decoder3x8 [decoder3x8_default]
+Compiling architecture behavioral of entity SC [sc_default]
+Compiling architecture behavioral of entity ControlLogic [controllogic_default]
+Compiling architecture behavioral of entity CP [cp_default]
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity Arbiter [arbiter_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Mem [mem_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity PCReg [pcreg_default]
+Compiling architecture behavioral of entity AddressReg [addressreg_default]
+Compiling architecture behavioral of entity DP [dp_default]
+Compiling architecture behavioral of entity top_module [top_module_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/Parsa Hejabi/Documents/Digital System Design/Assignments/HW9/BaseProcessor/testbench_isim_beh.exe
+Fuse Memory Usage: 38092 KB
+Fuse CPU Usage: 749 ms
