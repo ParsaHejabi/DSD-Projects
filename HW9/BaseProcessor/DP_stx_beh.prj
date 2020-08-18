@@ -1,7 +1,0 @@
-vhdl isim_temp "Reg.vhd"
-vhdl isim_temp "PCReg.vhd"
-vhdl isim_temp "Mem.vhd"
-vhdl isim_temp "Arbiter.vhd"
-vhdl isim_temp "ALU.vhd"
-vhdl isim_temp "AddressReg.vhd"
-vhdl isim_temp "DP.vhd"

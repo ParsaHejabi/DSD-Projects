@@ -1,0 +1,27 @@
+*.png
+*.rar
+work/
+HW1/
+*.wlf
+*.mpf
+*.mti
+*.docx
+*.doc
+assignments road map.pdf
+DSD_HW_01.pdf
+DSD_report_format.pdf
+HW5/Image_Filtering/*
+!HW5/Image_Filtering/*.vhd
+!HW5/Image_Filtering/*.txt
+HW6/Machine State.svg
+!HW7/schematic.png
+!HW7/synthesys.png
+!HW8/Wave.png
+HW8/ISE Project/Parsa8/*
+!HW8/ISE Project/Parsa8/*.vhd
+HW9/BaseProcessor/*
+!HW9/BaseProcessor/*.vhd
+FinalProject/DSD_FINAL_95243019_ParsaHejabi/FSMD/*
+!FinalProject/DSD_FINAL_95243019_ParsaHejabi/FSMD/*.vhd
+FinalProject/FSMD/*
+!FinalProject/FSMD/*.vhd
